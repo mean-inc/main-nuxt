@@ -4,7 +4,7 @@
        <div class="flex lg:flex-1">
          <a href="#" class="-m-1.5 p-1.5">
            <span class="sr-only">Your Company</span>
-           <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+           <img class="h-8 w-auto" src="../public/MeanShop.svg" alt="Main Logo" />
          </a>
        </div>
        <div class="flex lg:hidden">
@@ -14,7 +14,7 @@
          </button>
        </div>
        <PopoverGroup class="hidden lg:flex lg:gap-x-12">
-         <Popover class="relative">
+         <!-- <Popover class="relative">
            <PopoverButton class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
              Product
              <ChevronDownIcon class="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
@@ -44,11 +44,14 @@
                </div>
              </PopoverPanel>
            </transition>
-         </Popover>
+         </Popover> -->
  
-         <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Features</a>
-         <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
-         <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Company</a>
+         <a href="#" class="text-sm font-semibold leading-6 text-gray-900">iPhone</a>
+         <a href="#" class="text-sm font-semibold leading-6 text-gray-900">iPad</a>
+         <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Mac</a>
+         <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Watch</a>
+         <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Акссесуары</a>
+         <a href="#" class="text-sm font-semibold leading-6 text-gray-900">AirPods</a>
        </PopoverGroup>
        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
@@ -60,7 +63,7 @@
          <div class="flex items-center justify-between">
            <a href="#" class="-m-1.5 p-1.5">
              <span class="sr-only">Your Company</span>
-             <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+             <img class="h-8 w-auto" src="../public/MeanShop.svg" alt="Main Logo" />
            </a>
            <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = false">
              <span class="sr-only">Close menu</span>
