@@ -1,9 +1,9 @@
 <template>
-   <header class="bg-white">
-     <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-       <div class="flex lg:flex-1">
+   <header class="bg-white z-50">
+     <nav class="mx-auto flex z-50 max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+       <div class="flex lg:flex-1 z-50">
          <a href="#" class="-m-1.5 p-1.5">
-           <span class="sr-only">Your Company</span>
+           <span class="sr-only">MeanShop</span>
            <img class="h-8 w-auto" src="../public/MeanShop.svg" alt="Main Logo" />
          </a>
        </div>
@@ -13,7 +13,7 @@
            <Bars3Icon class="h-6 w-6" aria-hidden="true" />
          </button>
        </div>
-       <PopoverGroup class="hidden lg:flex lg:gap-x-12">
+       <PopoverGroup class="hidden z-50 lg:flex lg:gap-x-12">
          <!-- <Popover class="relative">
            <PopoverButton class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
              Product
@@ -58,8 +58,8 @@
        </div>
      </nav>
      <Dialog as="div" class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
-       <div class="fixed inset-0 z-10" />
-       <DialogPanel class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+       <div class="fixed z-50 inset-0" />
+       <DialogPanel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
          <div class="flex items-center justify-between">
            <a href="#" class="-m-1.5 p-1.5">
              <span class="sr-only">Your Company</span>
@@ -70,7 +70,7 @@
              <XMarkIcon class="h-6 w-6" aria-hidden="true" />
            </button>
          </div>
-         <div class="mt-6 flow-root">
+         <div class="mt-6 z-50 flow-root">
            <div class="-my-6 divide-y divide-gray-500/10">
              <div class="space-y-2 py-6">
                <Disclosure as="div" class="-mx-3" v-slot="{ open }">

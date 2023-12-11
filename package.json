@@ -20,6 +20,7 @@
     "@headlessui/vue": "^1.7.16",
     "@heroicons/vue": "^2.0.18",
     "@vue-hero-icons/outline": "^1.7.2",
+    "flowbite": "^2.2.0",
     "path": "^0.12.7",
     "sass": "^1.69.5"
   }

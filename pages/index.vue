@@ -6,6 +6,7 @@ export default {
 
 <template>
   <HeaderMain />
+  <Carousel />
 </template>
 
 <style>

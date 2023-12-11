@@ -4,5 +4,8 @@ import { resolve } from 'path'
 export default defineNuxtConfig({
   alias: {'@': resolve(__dirname, "/")},
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss']
+  modules: ['@nuxtjs/tailwindcss'],
+  tailwindcss: {
+    cssPath: '~/assets/css/main.scss'
+}
 })
